@@ -1,0 +1,133 @@
+body {
+  background-color: #111;
+}
+
+.bee {
+  margin: 200px 300px;
+}
+
+.head {
+  background-color: #fcd017;
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+  border: 10px solid #d85f04;
+  padding: 10px;
+  position: absolute;
+  /* border-right-width: 10px;
+  border-left-width: 10px;
+  border-top-width: 20px;
+  border-left-width: 20px; */
+
+  border-top-left-radius: 155px;
+  border-top-right-radius: 145px;
+  border-bottom-right-radius: 120px;
+  border-bottom-left-radius: 115px;
+  transform: rotate(-10deg);
+  border-bottom-width: 12px;
+}
+
+#eyebrow1 {
+  /* https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only */
+  position: absolute;
+  top: 40px;
+  left: 90px;
+  width: 25px;
+  height: 10px; /* as the half of the width */
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 90px;
+  transform: rotate(-40deg);
+  /* background-color: gold; */
+  /*border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+  /*border-top-right-radius: 110px; /* 100px of height + 10px of border */
+  border: 6px solid #881116;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+#eyebrow2 {
+  /* https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only */
+  position: absolute;
+  top: 35px;
+  right: 85px;
+  width: 25px;
+  height: 10px; /* as the half of the width */
+  border-bottom-right-radius: 90px;
+  border-bottom-left-radius: 40px;
+  transform: rotate(40deg);
+  /* background-color: gold; */
+  /*border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+  /*border-top-right-radius: 110px; /* 100px of height + 10px of border */
+  border: 6px solid #881116;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.eye {
+  width: 80px;
+  height: 70px;
+  border-radius: 50%;
+  border: 5px solid #111;
+  display: inline-block;
+  margin: 10px;
+  position: absolute;
+  z-index: 1;
+  background: white;
+}
+
+#eye1 {
+  top: 62px;
+  left: 11px;
+  border-right-width: 5px;
+  border-left-width: 5px;
+  border-top-width: 10px;
+  border-left-width: 10px;
+  transform: rotate(10deg);
+}
+
+#eye2 {
+  top: 53px;
+  right: 10px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  border-top-width: 5px;
+  border-left-width: 5px;
+  transform: rotate(-20deg);
+}
+
+.smile {
+  /* https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only */
+  position: absolute;
+  top: 160px;
+  left: 120px;
+  width: 20px;
+  height: 10px; /* as the half of the width */
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  /* background-color: gold; */
+  /*border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+  /*border-top-right-radius: 110px; /* 100px of height + 10px of border */
+  border: 6px solid #881116;
+  border-top: 0;
+}
+
+.blush {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fb7988;
+  position: absolute;
+}
+
+#blush1 {
+  top: 130px;
+  transform: rotate(30deg);
+  /* border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px; */
+}
+
+#blush2 {
+  top: 120px;
+  right: 10px;
+  transform: rotate(-20deg);
+}
