@@ -1,5 +1,5 @@
 body {
-  background-color: #111;
+  background-color: #6e5a82;
 }
 
 .bee {
@@ -25,6 +25,32 @@ body {
   border-bottom-left-radius: 115px;
   transform: rotate(-10deg);
   border-bottom-width: 12px;
+}
+
+.antenna {
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  border: 0 solid #111;
+  border-right-width: 5px;
+  border-top-width: 15px;
+  border-bottom: none;
+  border-left: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 120%;
+}
+
+
+#antenna1 {
+  top: -75px;
+  left: 20px;
+  transform: rotate(-10deg);
+}
+
+#antenna2 {
+  top: -90px;
+  left: 130px;
+  transform: rotate(20deg);
 }
 
 #eyebrow1 {
