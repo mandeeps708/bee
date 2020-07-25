@@ -63,7 +63,7 @@ body {
   border-left: 0;
   border-right: 0;
 }
-.eye {
+.eyeframe {
   width: 80px;
   height: 70px;
   border-radius: 50%;
@@ -71,15 +71,17 @@ body {
   display: inline-block;
   margin: 10px;
   position: absolute;
-  z-index: 1;
+  z-index: 10;
   /* background: white; */
 }
 
-#eyefill1 {
+#eyefill {
   background-color: white;
+  z-index: 8;
+  /* height: 100px; */
 }
 
-.eye1 {
+.eyeframe1 {
   top: 62px;
   left: 11px;
   border-right-width: 5px;
@@ -87,10 +89,9 @@ body {
   border-top-width: 10px;
   border-left-width: 10px;
   transform: rotate(10deg);
-  background: white;
 }
 
-.eye2 {
+.eyeframe2 {
   top: 53px;
   right: 10px;
   border-right-width: 10px;
@@ -98,7 +99,6 @@ body {
   border-top-width: 5px;
   border-left-width: 5px;
   transform: rotate(-20deg);
-  background: white;
 
 }
 
@@ -108,16 +108,17 @@ body {
   height: 65px;
   border-radius: 50%;
   position: absolute;
+  z-index: 9;
 }
 
 #eyeball1 {
-  left: 7px;
-  top: -2px;
+  top: 80px;
+  left: 40px;
 }
 
 #eyeball2 {
-  top: -2px;
-  left: 5px;
+  top: 69px;
+  left: 165px;
 }
 
 .retina {
