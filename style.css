@@ -1,5 +1,5 @@
 body {
-  background-color: #6e5a82;
+  background-color: #6f33ab;
 }
 
 .bee {
@@ -152,7 +152,7 @@ body {
   width: 57px;
   height: 57px;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
 }
 
 #retina1 {
@@ -163,6 +163,50 @@ body {
 #retina2 {
   left: 4px;
   top: 3px;
+}
+
+.reflection1 {
+  position: absolute;
+  width: 25px;
+  height: 10px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #fbfdf8;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  right: -2px;
+  top: 15px;
+  transform: skew(33deg, 4deg) rotate(109deg);
+  /* transform: rotate(70deg); */
+}
+
+.reflection2 {
+  position: absolute;
+  width: 15px;
+  height: 5px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: #fbfdf8;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  left: 0px;
+  top: 28px;
+  /* transform: rotate(70deg); */
+  transform: skew(33deg, 4deg) rotate(-63deg);
+}
+
+.reflection3 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fbfdf8;
+  left: 37px;
+  top: 34px;
+}
+
+#eyeball2 .reflection3 {
+  left: 40px;
 }
 
 .smile {
