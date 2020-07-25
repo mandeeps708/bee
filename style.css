@@ -209,6 +209,23 @@ body {
   left: 40px;
 }
 
+.reflection4 {
+  position: absolute;
+  left: 12px;
+  bottom: 2px;
+  width: 41px;
+  height: 12px;
+  border-bottom-right-radius: 67px;
+  border-bottom-left-radius: 67px;
+  transform: rotate(-13deg);
+  border: 8px solid #02375d;
+  /* opacity: 0.5; */
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  filter: blur(2px);
+}
+
 .smile {
   /* https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only */
   position: absolute;
