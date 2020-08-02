@@ -4,9 +4,11 @@ body {
 
 .bee {
   margin: 200px 300px;
+  position: relative;
 }
 
 .head {
+  z-index: 2;
   background-color: #fcd017;
   height: 200px;
   width: 250px;
@@ -262,4 +264,39 @@ body {
   top: 120px;
   right: 10px;
   transform: rotate(-20deg);
+}
+
+.torso {
+  /* z-index: 2; */
+  top: 80px;
+  left: 20px;
+  background-color: #fcd017;
+  height: 300px;
+  width: 230px;
+  border: 10px solid #d85f04;
+  padding: 10px;
+  position: absolute;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 400px;
+  border-bottom-right-radius: 400px;
+  border-bottom-left-radius: 300px;
+  transform: rotate(8deg);
+  border-bottom-width: 12px;
+  border-right-width:12px;
+  border-left-width:10px;
+}
+
+.torso .dark-shade {
+  position: absolute;
+  height: 180px;
+  width: 250px;
+  z-index: 1;
+  top: 70px;
+  left: 0px;
+  
+  background-color: #514245;
+  /* border: 10px none #d85f04; */
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 400px;
+  border-bottom-left-radius: 250px;
 }
