@@ -351,3 +351,48 @@ body {
   left: 56px;
   transform: rotate(-50deg);
 }
+
+
+.arm {
+  position: absolute;
+  width: 65px;
+  height: 50px;
+  border: 0 solid #130e0e;
+  border-right-width: 20px;
+  border-top-width: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 80%;
+}
+
+#arm1 {
+  top: 230px;
+  left: 69px;
+  transform: rotate(135deg);
+}
+
+#arm2 {
+  top: 213px;
+  left: 170px;
+  transform: rotate(124deg);
+}
+
+.hand {
+  position: absolute;
+  width: 3px;
+  height: 56px;
+  border: 0 solid #130e0e;
+  border-right-width: 22px;
+  border-top-width: 6px;
+  /* border-top-left-radius: 9px; */
+  border-top-right-radius: 25px;
+  z-index: 15;
+}
+#hand1 {
+  transform: scale(-1, 1) rotate(369deg);
+  top: 203px;
+  left: 135px;
+}
+#hand2 {
+  top: 200px;
+  left: 152px;
+}
