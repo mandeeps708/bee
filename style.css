@@ -312,49 +312,49 @@ body {
 
 .leg {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border: 0 solid #130e0e;
-  border-right-width: 20px;
-  border-top-width: 20px;
+  border-right-width: 12px;
+  border-top-width: 15px;
   border-top-left-radius: 10px;
   border-top-right-radius: 80%;
 }
 
 #leg1 {
-  top: 370px;
-  left: 50px;
-  transform: scale(-1, 1) rotate(30deg);
+  top: 388px;
+  left: 58px;
+  transform: scale(-1, 1) rotate(45deg);
 }
 
 #leg2 {
-  top: 370px;
-  left: 160px;
-  transform: rotate(30deg);
+  top: 385px;
+  left: 170px;
+  transform: rotate(35deg);
 }
 
 .foot {
-  width: 16px;
-  height: 14px;
+  width: 17px;
+  height: 8px;
   border: 0 solid #130e0e;
-  border-right-width: 15px;
-  border-top-width: 15px;
-  border-top-left-radius: 9px;
-  border-top-right-radius: 48px;
+  border-right-width: 10px;
+  border-top-width: 11px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 60px;
 }
 
 #foot1 {
   position: absolute;
-  top: 435px;
-  left: 192px;
-  transform: rotate(-25deg);
+  top: 438px;
+  left: 63px;
+  transform: rotate(-37deg);
 }
 
 #foot2 {
   position: absolute;
-  top: 433px;
-  left: 56px;
-  transform: rotate(-50deg);
+  top: 436px;
+  left: 197px;
+  transform: scale(-1, 1) rotate(-38deg);
 }
 
 
