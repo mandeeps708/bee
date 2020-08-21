@@ -396,3 +396,31 @@ body {
   top: 200px;
   left: 152px;
 }
+
+.feather {
+  background-color: #56cfea;
+  border: 10px solid #109faf;
+  z-index: -1;
+  position: absolute;
+  height: 123px;
+  width: 100px;
+  padding: 10px;
+  border-bottom-right-radius: 248px;
+  border-bottom-left-radius: 169px;
+  border-top-left-radius: 300px;
+  border-bottom-width: 13px;
+  border-right-width:13px;
+  border-left-width:14px;
+  border-top-width:14px;
+}
+
+#feather1 {
+  top: 198px;
+  left: -34px;
+}
+
+#feather2 {
+  transform: rotate(304deg);
+  top: 225px;
+  left: 148px;
+}
