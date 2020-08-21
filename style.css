@@ -1,5 +1,7 @@
 body {
-  background-color: #6f33ab;
+  /* background-color: #6f33ab; */
+  background: linear-gradient(#232e40, #1f4e6c);
+  height: 75vh;
 }
 
 .bee {
