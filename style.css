@@ -12,6 +12,24 @@ body {
   position: relative;
 }
 
+@media (min-width: 240px) and (max-width: 480px) {
+  .bee {
+    margin: 150px 45px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+  .bee {
+    margin: 40% 30%;
+  }
+}
+
+@media (min-width: 801px) {
+  .bee {
+    margin: 20% 40%;
+  }
+}
+
 .head {
   z-index: 2;
   background-color: #fcd017;
